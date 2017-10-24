@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSLog(@"Hello hai how are you");
+    
+    //ijeijhirfhreuihuirh  erufihfrhiulfhlui
     // Do any additional setup after loading the view, typically from a nib.
 }
 
