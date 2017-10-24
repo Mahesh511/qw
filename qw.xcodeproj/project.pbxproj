@@ -15,6 +15,8 @@
 		633D71521F8B460400C37348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D71511F8B460400C37348 /* main.m */; };
 		633D715C1F8B460400C37348 /* qwTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D715B1F8B460400C37348 /* qwTests.m */; };
 		633D71671F8B460400C37348 /* qwUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D71661F8B460400C37348 /* qwUITests.m */; };
+		63DB17991F8B517E00DFD91A /* ic_background_login_one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DB17971F8B517D00DFD91A /* ic_background_login_one.jpg */; };
+		63DB179A1F8B517E00DFD91A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DB17981F8B517E00DFD91A /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		633D71621F8B460400C37348 /* qwUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qwUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		633D71661F8B460400C37348 /* qwUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qwUITests.m; sourceTree = "<group>"; };
 		633D71681F8B460500C37348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DB17971F8B517D00DFD91A /* ic_background_login_one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ic_background_login_one.jpg; sourceTree = "<group>"; };
+		63DB17981F8B517E00DFD91A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				633D71451F8B460400C37348 /* ViewController.h */,
 				633D71461F8B460400C37348 /* ViewController.m */,
 				633D71481F8B460400C37348 /* Main.storyboard */,
+				63DB17971F8B517D00DFD91A /* ic_background_login_one.jpg */,
+				63DB17981F8B517E00DFD91A /* logo.png */,
 				633D714B1F8B460400C37348 /* Assets.xcassets */,
 				633D714D1F8B460400C37348 /* LaunchScreen.storyboard */,
 				633D71501F8B460400C37348 /* Info.plist */,
@@ -239,7 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				633D714F1F8B460400C37348 /* LaunchScreen.storyboard in Resources */,
+				63DB179A1F8B517E00DFD91A /* logo.png in Resources */,
 				633D714C1F8B460400C37348 /* Assets.xcassets in Resources */,
+				63DB17991F8B517E00DFD91A /* ic_background_login_one.jpg in Resources */,
 				633D714A1F8B460400C37348 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,11 +439,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B57PF3L3YX;
 				INFOPLIST_FILE = qw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = BiipByte.qw;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biiipvbyte.resize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +453,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B57PF3L3YX;
 				INFOPLIST_FILE = qw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = BiipByte.qw;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biiipvbyte.resize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
