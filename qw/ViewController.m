@@ -13,16 +13,39 @@
 @end
 
 @implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    NSLog(@"Hello hai how are you");
-    
-    //ijeijhirfhreuihuirh  erufihfrhiulfhlui
-    // Do any additional setup after loading the view, typically from a nib.
+{
+    NSString *oye;
 }
 
+static void extracted()
+{
+    NSLog(@"Hello hai how are you");
+}
+
+- (void)extracted
+{
+    extracted();
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    oye=@"Hey";
+    [self extracted];
+    
+    if ([oye isEqualToString:@"Hey"])
+    {
+        NSLog(@"egdfdtefwtfje");
+        
+        
+        //Hello
+    }
+    else
+    {
+        NSLog(@"No Hey");
+    }
+
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
